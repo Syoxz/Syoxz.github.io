@@ -13,13 +13,10 @@ window.addEventListener('DOMContentLoaded', event => {
     var navbarShrink = function () {
         const navbarCollapsible = document.body.querySelector('#mainNav');
         if (!navbarCollapsible) {
+            navbarCollapsible.classList.remove('navbar-shrink')
             return;
         }
-        if (window.scrollY === 0) {
-            navbarCollapsible.classList.remove('navbar-shrink')
-        } else {
-            navbarCollapsible.classList.add('navbar-shrink')
-        }
+     
 
     };
 
