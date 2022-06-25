@@ -11800,7 +11800,9 @@ body {
 /* Attributselektor und indirekter Nachfahrkombinator zum ansteuern der labels */
 .sliderControls label:hover,
 #slide01:checked ~ .sliderControls label[for="slide01"],
-#slide02:checked ~ .sliderControls label[for="slide02"]
+#slide02:checked ~ .sliderControls label[for="slide02"],
+#slide03:checked ~ .sliderControls label[for="slide03"],
+#slide04:checked ~ .sliderControls label[for="slide04"]
  {
     background:#948C8C;
     color: #948C8C;
