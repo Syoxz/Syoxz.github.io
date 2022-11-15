@@ -11772,6 +11772,7 @@ body {
 /* inputs aus dem Blickfeld schieben */
 .cssSlider input {
     position: absolute;
+    visibility: hidden;
     
 }
  
